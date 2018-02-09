@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#fd7988"
+    android:id="@+id/layout_titlebar"
+    android:layout_width="match_parent"
+    android:layout_height="52dp">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ellipsize="marquee"
+        android:gravity="center_horizontal|center"
+        android:id="@+id/text_title"
+        android:singleLine="true"
+        android:text="标题栏"
+        android:textColor="#ffffffff"
+        android:textSize="20dp"
+        />
+    
+    <Button
+        android:id="@+id/button_backward"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#fd7988"
+        android:drawableLeft="@mipmap/back_arrow"
+        android:drawablePadding="5dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:paddingLeft="5dp"
+        android:singleLine="true"
+        android:text="返回"
+        android:textColor="#ffffffff"
+        android:textSize="18dp"
+        android:visibility="invisible"
+        />
+
+
+    <Button
+        android:id="@+id/button_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="#fd7988"
+        android:drawablePadding="6dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:paddingLeft="5dp"
+        android:singleLine="true"
+        android:text="清除"
+        android:textColor="#ffffffff"
+        android:textSize="18dp"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>

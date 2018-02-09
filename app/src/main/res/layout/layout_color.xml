@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:textSize="@dimen/text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_black"
+        android:text="黑"
+        android:background="#000"
+        android:textColor="#000"/>
+
+    <Button
+        android:textSize="@dimen/text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_red"
+        android:text="红"
+        android:background="#fa0000"
+        android:textColor="#fa0000"/>
+
+    <Button
+        android:textSize="@dimen/text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_blue"
+        android:text="蓝"
+        android:background="#65dbff"
+        android:textColor="#65dbff"/>
+
+    <Button
+        android:textSize="@dimen/text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_green"
+        android:text="绿"
+        android:background="#00fa00"
+        android:textColor="#00fa00"/>
+
+    <Button
+        android:textSize="@dimen/text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_yellow"
+        android:text="黄"
+        android:background="#fff07b"
+        android:textColor="#fff07b"/>
+
+    <Button
+        android:textSize="@dimen/text_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_gray"
+        android:text="灰"
+        android:background="#9f9f9f"
+        android:textColor="#9f9f9f"/>
+
+
+
+</LinearLayout>
