@@ -84,6 +84,7 @@ public class MyView extends SurfaceView implements SurfaceHolder.Callback,View.O
                 break;
             case MotionEvent.ACTION_MOVE:
                 path.lineTo(event.getX(),event.getY());
+                draw();
                 break;
             default:
                 break;
